@@ -13,6 +13,14 @@
 .nav-spotify-logo {
     height: 50px;
     width: 175px;
+    transform: translateX(0);
+    transition: transform 1s;
+}
+
+.nav-spotify-logo:hover {
+    cursor: pointer;
+    transform: translateX(30px);
+    transition: transform 1s;
 }
 
 .nav-links-box {
@@ -25,6 +33,18 @@
     float: right;
     list-style: none;
     font-size: 20px;
+}
+
+.nav-btn {
+    transform: translateY(0);
+    transition: transform 1s;
+}
+
+.nav-btn:hover {
+    color: #1AB26B;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: transform 1s;
 }
 
 .main-background {
